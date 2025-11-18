@@ -3,7 +3,7 @@
         <title>Second Life</title>
     </head>
         <body>
-            <h1 style="color: rgb(130, 219, 91); text-align: center;"> Second Life </h1>
+            <h1 id="titulosecond"> Second Life </h1>
             <img id="logo" src=".\Imagenes\imgindex\second_life_logo.png">
             <h1>Introducción</h1>
                 <p>Parte de crecer es pensar en el futuro y en el esfuerzo necesario para alcanzar nuestras metas. Aunque muchas ideas surgen, son pocas las personas que dan el salto y deciden cambiar su rumbo. Nosotros somos parte de ese grupo, y con SECOND LIFE queremos cambiar las reglas sobre la compra de equipos nuevos, destacando la opción de los equipos reacondicionados.</p>
@@ -24,6 +24,45 @@
                 <p>Cada integrante tiene características únicas y complementarias, que combinadas, nos ayudan a afrontara los retos que vendrán a continuación</p>
             <h2>Complementación del equipo:</h2>
                 <p>Nuestro equipo combina pensamiento crítico, habilidades sociales y capacidad para ejecutar, logrando un enfoque equilibrado y eficaz.</p>
+
+
+                <h1> Estas interesado? Contactanos!</h1>
+                <form action=".\contactoenviado.html" method="get">
+        <label for = "nombre"> Nombre </label>
+                <input type="text" id="nombre" name="nombre" required> <br>
+
+        <label for="email">Correo electronic </label>
+                <input type="email" id="email" name="email" required><br>
+
+        <label for="edad">Edad</label>
+                <input type="number" id="edad" name="edad" required><br>
+
+        <label for="despegable"> Genero </label>
+            <select id="despegable" name="despegable" required>
+                <option value="masculino">masculino</option>
+                <option value="femenino">femenino</option>
+            </select> <br>
+        <label> Que prefieres</label>
+            <input type="checkbox" id="vender" name="vender" value="vender" checked>
+                <label for="vender"> Vender</label> <br>
+            <input type="comprar" id="comprar" name="comprar" value="comprar">
+                <label for="comprar"> Comprar</label> 
+          
+        
+        <label> Como nos has conocido?</label>
+            <input type="radio" id="cosa1" name="origen" value="cosa1" checked>
+                <label for="cosa1"> amigos</label>
+            <input type="radio" id="cosa2" name="origen" value="cosa2">
+                <label for="cosa2"> redes sociales</label>
+            <input type="radio" id="cosa3" name="origen" value="cosa3">
+                <label for="cosa3"> otros</label>
+        <label for="comentarios"> Comentarios: </label> <br>
+        <textarea id="comentarios" name="comentarios" placeholder="Escribe aqui required"></textarea> <br>
+            <input type="submit" value="Enviar">
+
+
+
+    </form>
         </body> 
             
 
