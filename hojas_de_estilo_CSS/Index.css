@@ -2,3 +2,9 @@
     background-color: aquamarine;
     padding: 15px
 }
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
