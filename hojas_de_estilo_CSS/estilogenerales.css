@@ -1,0 +1,17 @@
+.menu{
+    background-color: aquamarine;
+    padding: 15px
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer{
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: aquamarine;
+}
