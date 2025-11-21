@@ -4,9 +4,12 @@
 }
 
 .menu ul{
+     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
 }
 
 footer{
@@ -14,4 +17,14 @@ footer{
     padding: 20px;
     text-align: center;
     background-color: #FCE5BB;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2e9d8;
+}
+header {
+    background-color:#e0d2b8;
+    padding: 10px 0;
+    border-bottom: 2px solid #b59d80;
 }
