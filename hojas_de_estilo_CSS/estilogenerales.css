@@ -28,3 +28,11 @@ header {
     padding: 10px 0;
     border-bottom: 2px solid #b59d80;
 }
+
+p{
+    line-height: 1.5;
+}
+
+ul {
+    margin-left: 20px;
+}
