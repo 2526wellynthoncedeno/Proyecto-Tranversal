@@ -1,4 +1,17 @@
 body {
     background-color:#f2e9d8 ;
-    
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2{
+    color:rgb(184, 243, 223);
+}
+#section-logo {
+    text-align: center;
+    margin-bottom: 30px;
 }
