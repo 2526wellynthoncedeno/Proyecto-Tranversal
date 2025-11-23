@@ -22,7 +22,7 @@
         <main>
             <section id="seccion-logo">
                 <h1 id="titulosecond"> Second Life </h1>
-                <img id="logoindex" src=".\Imagenes\imgindex\second_life_logo.png" alt="logosecondlife">
+                <img id="logoindex" src=".\Imagenes\imgindex\second_life_logo.png" height="250" width="250" alt="logosecondlife">
             </section>
             
             <section id="introduccion">
@@ -59,7 +59,7 @@
                             <li>CSS</li>
                     </ul>
             </section>
-            <section id="indice">
+            <nav id="indice">
                 <h2> Indice</h2>
                     <div class="indice">
                         <p>Conozca más acerca de nuestro proyecto mediante estos enlaces</p>
@@ -73,45 +73,52 @@
                             <li><a href="intro_second_life.html">¿Qué es Second Life?</a></li>
                         </ul>
                     </div>
-            </section>
+            <nav>
             <section id="formulario">
                 <fieldset>
 					<legend>Quieres trabajar con nosotros?</legend>
                 <form action=".\contactoenviado.html" method="get">
-                                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" required>
-
-                <label for="email">Correo electrónico</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="edad">Edad</label>
-                <input type="number" id="edad" name="edad" required>
-
-                <label for="desplegable">Género</label>
-                <select id="desplegable" name="desplegable" required>
-                    <option value="masculino">Masculino</option>
-                    <option value="femenino">Femenino</option>
-                </select>
-
-                <label>Qué prefieres</label>
-                <input type="checkbox" id="vender" name="vender" value="vender" checked>
-                <label for="vender">Vender</label>
-
-                <input type="checkbox" id="comprar" name="comprar" value="comprar">
-                <label for="comprar">Comprar</label>
-
-                <label>Cómo nos has conocido</label>
-                <input type="radio" id="cosa1" name="origen" value="cosa1" checked>
-                <label for="cosa1">Amigos</label>
-                <input type="radio" id="cosa2" name="origen" value="cosa2">
-                <label for="cosa2">Redes sociales</label>
-                <input type="radio" id="cosa3" name="origen" value="cosa3">
-                <label for="cosa3">Otros</label>
-
-                <label for="comentarios">Comentarios:</label>
-                <textarea id="comentarios" name="comentarios" placeholder="Escribe aquí" required></textarea>
-
-                <input type="submit" value="Enviar">
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+                <p>
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                    <p><label for="edad">Edad</label>
+                    <input type="number" id="edad" name="edad" required>
+                </p>
+                <p>
+                    <label for="desplegable">Género</label>
+                    <select id="desplegable" name="desplegable" required>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Qué prefieres</label>
+                    <input type="checkbox" id="vender" name="vender" value="vender" checked>
+                    <label for="vender">Vender</label>
+                    <input type="checkbox" id="comprar" name="comprar" value="comprar">
+                    <label for="comprar">Comprar</label>
+                </p>
+                <p>
+                    <label>Cómo nos has conocido</label>
+                    <input type="radio" id="cosa1" name="origen" value="cosa1" checked>
+                    <label for="cosa1">Amigos</label>
+                    <input type="radio" id="cosa2" name="origen" value="cosa2">
+                    <label for="cosa2">Redes sociales</label>
+                    <input type="radio" id="cosa3" name="origen" value="cosa3">
+                    <label for="cosa3">Otros</label>
+                </p>
+                <p>
+                    <label for="comentarios">Comentarios:</label></p>
+                    <textarea id="comentarios" name="comentarios" placeholder="Escribe aquí" required></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
                 </form>
              </section>
     </main>
