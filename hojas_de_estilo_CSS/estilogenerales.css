@@ -36,3 +36,7 @@ p{
 ul {
     margin-left: 20px;
 }
+
+#formulario form {
+    display: flex;
+}
