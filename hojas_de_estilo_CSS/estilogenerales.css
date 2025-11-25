@@ -1,10 +1,10 @@
-.menu{
-    background-color:#FCE5BB;
+.menu {
+    background-color: #FCE5BB;
     padding: 15px
 }
 
-.menu ul{
-     list-style: none;
+.menu ul {
+    list-style: none;
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -12,7 +12,7 @@
     margin: 0;
 }
 
-footer{
+footer {
     margin-top: 40px;
     padding: 20px;
     text-align: center;
@@ -23,13 +23,14 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2e9d8;
 }
+
 header {
-    background-color:#e0d2b8;
+    background-color: #e0d2b8;
     padding: 10px 0;
     border-bottom: 2px solid #b59d80;
 }
 
-p{
+p {
     line-height: 1.5;
 }
 

@@ -1,20 +1,24 @@
 table {
-    width: 500px;       /* Ancho fijo en píxeles */
-    height: 200px;      /* Alto fijo en píxeles */
-    border-collapse: collapse; /* Bordes unidos */
-        margin-left: auto;
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+    margin-left: auto;
     margin-right: auto;
 }
-th, td {
+
+th,
+td {
     border: 1px solid black;
     text-align: left;
     padding: 8px;
 }
+
 .left {
     background-color: black;
     color: white;
 }
-.right{
+
+.right {
     background-color: white;
     color: black;
 }
