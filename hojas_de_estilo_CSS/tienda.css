@@ -1,0 +1,35 @@
+
+#productossecond table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fffaf0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#productossecond caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #3e3a36;
+}
+
+#productossecond th, #productossecond td {
+    border: 1px solid #c4b59d;
+    padding: 12px;
+    text-align: center;
+}
+
+#productossecond th {
+    background-color: #e0d7c2;
+}
+
+#productossecond td img {
+    max-width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+#productossecond td img:hover {
+    transform: scale(1.05);
+}
