@@ -1,7 +1,3 @@
-#ComputadoraReciclaje {
-    padding: 700px;
-}
-
 table {
     width: 500px;       /* Ancho fijo en píxeles */
     height: 200px;      /* Alto fijo en píxeles */
@@ -11,17 +7,14 @@ table {
 }
 th, td {
     border: 1px solid black;
-    text-align: center;
+    text-align: left;
     padding: 8px;
 }
-.table_titulo{
-    background-color: #FCE5BB;
-
+.left {
+    background-color: black;
+    color: white;
 }
-.table_foto{
-    border-radius: 50%;
-    transition: transform 0.5s ease;
-}
-.hover_cv:hover{
-    background-color: lightblue;
+.right{
+    background-color: white;
+    color: black;
 }
