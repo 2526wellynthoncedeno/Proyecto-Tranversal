@@ -23,17 +23,27 @@ footer {
     padding: 20px;
     text-align: center;
     background-color: #FCE5BB;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;   
 }
 
 body {
     font-family: Arial, sans-serif;
     background-color: #f2e9d8;
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 header {
     background-color: #e0d2b8;
     padding: 10px 0;
     border-bottom: 2px solid #b59d80;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 p {
