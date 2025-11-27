@@ -21,6 +21,11 @@
 
 .producto-contenedor img {
     border-radius: 10px;
+    transition: transform 0.3s;
+}
+.producto-contenedor img:hover {
+    transform: scale(1.05);
+
 }
 
 .producto-info {
