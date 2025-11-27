@@ -22,6 +22,8 @@ h2 {
 .bloque img {
     width: 500px;  
     height: 500px;
+    border-radius: 10px;
+    display: flex;
 }
 
 .texto {

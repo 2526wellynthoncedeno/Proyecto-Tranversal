@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
-    <title>Second Life - CV Wellynthón</title>
+    <title>Currículum Wellynthón</title>
     <link rel="stylesheet" href="hojas_de_estilo_CSS/estilogenerales.css">
     <link rel="stylesheet" href="hojas_de_estilo_CSS/curriculum.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+        main {
+            width: 80%;
+            background: #EAEAEC;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            text-align: center;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .foto {
+            width: 200px;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,85 +50,107 @@
             <ul>
                 <li><a href="tiendasecond.html">Nuestra tienda</a></li>
                 <li><a href="vendesecond.html">Vende productos</a></li>
-                <li> <a href="index.html">Inicio</a></li>
-                <li> <a href="sobre_nosotros.html">Sobre nosotros</a></li>
-                <li> <a href="intro_second_life.html"> Conoce más</a></li>
-                <li> <a href="galeria.html">Galeria de fotos</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+                <li><a href="intro_second_life.html">Conoce más</a></li>
+                <li><a href="galeria.html">Galeria de fotos</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <h2>Sobre mí</h2>
+        <img class="foto" src="Imagenes/biblioteca_imagenes/welly.jpg" alt="Foto de Wellynthón">
+        <p>
+            Soy estudiante apasionado por el mundo de las redes, familiarizado con servidores y gestión de redes.
+            Me gusta aprender de los errores y ayudar a mis compañeros a mejorar en sus habilidades técnicas.
+            Busco oportunidades que me permitan crecer profesionalmente y adquirir experiencia práctica.
+        </p>
+
+        <h2>Estudios</h2>
         <table>
-            <tr>
-                <td class="left">
-                    <img class="table_foto" src="Imagenes/biblioteca_imagenes/welly.jpg" height="350" width="250"
-                        alt="Foto CV Wellynthón Cedeño">
-                    FOTO CV y datos
-                </td>
-                <td class="right">Wellynthón Wilfrido Cedeño Sarango</td>
-            </tr>
+            <caption>Formación Académica</caption>
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Estudios</th>
+                    <th>Centro</th>
+                    <th>Ciudad</th>
+                    <th>Duración</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">2023 - Actualidad</td>
+                    <td rowspan="2">Técnico en Sistemas Microinformáticos y Redes</td>
+                    <td rowspan="2">Institut TIC de Barcelona</td>
+                    <td>Barcelona</td>
+                    <td>2 años</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Prácticas en empresa (en proceso)</td>
+                </tr>
+                <tr>
+                    <td>2022 - 2023</td>
+                    <td>Educación Secundaria Obligatoria</td>
+                    <td>Institut Joan d'Austria</td>
+                    <td>Barcelona</td>
+                    <td>1 año</td>
+                </tr>
+                <tr>
+                    <td>2020 - 2022</td>
+                    <td>Curso de redes y hardware básico</td>
+                    <td>Centro Técnico Local</td>
+                    <td>Barcelona</td>
+                    <td>2 años</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>Informática básica</td>
+                    <td>Colegio Secundario</td>
+                    <td>Barcelona</td>
+                    <td>1 año</td>
+                </tr>
+            </tbody>
+        </table>
 
-            <tr>
-                <td class="left">
-                    <p>COMPETENCIAS</p>
-                    <ul>
-                        <li>Trabajo en equipo.</li>
-                        <li>Espíritu de líder.</li>
-                        <li>Comunicación efectiva.</li>
-                        <li>Eficiente y autónomo.</li>
-                        <li>Manejo de ordenadores y equipos electrónicos.</li>
-                    </ul>
-                </td>
-                <td class="right">
-                    <p>SOBRE MI</p>
-                    <p>Estudiante apasionado por el mundo de las redes, familiarizado con servidores y gestión de redes.
-                        Busco
-                        aprender aunque primero tenga que equivocarme. Me gusta ayudar a mis compañeros con sus
-                        incidencias
-                        y empujarlos al siguiente nivel.</p>
-                </td>
-            </tr>
-
-            <tr>
-                <td class="left">
-                    <p>HABILIDADES DIGITALES</p>
-                    <ul>
-                        <li>C#: medio</li>
-                        <li>Office: medio</li>
-                        <li>Inkscape: medio</li>
-                        <li>Photoshop: medio</li>
-                        <li>HTML: medio</li>
-                        <li>Cisco Packet Tracer: medio</li>
-                    </ul>
-                </td>
-                <td class="right">
-                    <p>FORMACIÓN</p>
-                    <p>Educación Secundaria Obligatoria</p>
-                    <ul>
-                        <li>2022 - 2023</li>
-                        <li>Institut Joan d'Austria - Barcelona</li>
-                    </ul>
-                    <p>Técnico en Sistemas Microinformáticos y Redes</p>
-                    <ul>
-                        <li>2023 - Actualmente</li>
-                        <li>Institut TIC de Barcelona - Barcelona</li>
-                    </ul>
-                </td>
-            </tr>
-
-            <tr>
-                <td class="left">
-                    <p>IDIOMAS</p>
-                    <ul>
-                        <li>Inglés: A2-B1</li>
-                        <li>Catalán: B1-B2</li>
-                        <li>Español: Nativo</li>
-                    </ul>
-                </td>
-                <td class="right">
-                </td>
-            </tr>
+        <h2>Proyectos</h2>
+        <table>
+            <caption>Proyectos Realizados</caption>
+            <thead>
+                <tr>
+                    <th>Proyecto</th>
+                    <th>Descripción</th>
+                    <th>Año</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Red doméstica</td>
+                    <td>Configuración y gestión de una red doméstica completa</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Servidor local</td>
+                    <td>Instalación y administración de servidor Linux para pruebas</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Simulación Cisco</td>
+                    <td>Diseño de topologías de red en Cisco Packet Tracer</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Proyecto IoT</td>
+                    <td>Integración de sensores y control remoto de dispositivos</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Gestión de incidencias</td>
+                    <td>Creación de sistema de seguimiento de errores y soluciones</td>
+                    <td>2025</td>
+                </tr>
+            </tbody>
         </table>
     </main>
 
@@ -101,5 +159,4 @@
         <p><a href="mailto:Second-Life@gmail.com">Contacto: Second-Life@gmail.com</a></p>
     </footer>
 </body>
-
 </html>
